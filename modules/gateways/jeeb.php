@@ -29,7 +29,7 @@ function jeeb_config()
         'baseCur' => array(
           'FriendlyName' => 'Select base currency',
           'Type'         => 'dropdown',
-          'Options'      => 'IRR,USD,BTC,EUR',
+          'Options'      => 'BTC,EUR,IRR,TOMAN,USD',
         ),
         'BTC' => array (
           "FriendlyName" => "Target Curency",
