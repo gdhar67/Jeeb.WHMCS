@@ -129,6 +129,9 @@ switch ($GATEWAY["baseCur"]) {
   case 'EUR':
     $baseCur="eur";
     break;
+  case 'TOMAN':
+    $baseCur="toman";
+    break;
 
   default:
     # code...
