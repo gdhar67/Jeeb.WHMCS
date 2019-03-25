@@ -95,6 +95,11 @@ $baseCur      = "";
 $lang         = "";
 $target_cur   = "";
 
+if($baseCur=='toman'){
+  $baseCur='irr';
+  $order_total *= 10;
+}
+
 switch ($GATEWAY["language"]) {
   case 'Auto-select':
     $lang=NULL;
